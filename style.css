@@ -272,15 +272,24 @@ padding: 20px;
     background-color: #008a19;
 }
 
-.columns {
-
-    column-count: 3;
-    column-gap: 20px;
-    column-width: 80px;
-}
 
 .far fa-handshake {
 
     font-size: 20px;
     color: red;
 }
+
+
+.columns {
+    
+    width: 33.33%;
+    padding: 10px;
+
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
