@@ -257,9 +257,9 @@ padding: 20px;
 
 }
 
-#first_name, #last_name, #question, #submit, #email {
+#first_name, #last_name, #question, #submit, #email, #browser, #age{
 
-        width: 220px;
+        width: 210px;
 
         margin: 10px;
 
@@ -293,3 +293,30 @@ padding: 20px;
     display: table;
     clear: both;
   }
+  #md, form h2 {
+    font-size: 18px;
+
+  }
+
+
+   #male, #female {
+
+    margin: 5px;
+   }
+
+   textarea {
+
+    border-radius: 6px;  
+   }
+   
+   #button_back {
+       position: absolute;
+       left: 640px;
+       bottom: -300px;
+   }
+#data {
+    position: absolute;
+    left: 600px;
+    bottom: -350px;
+}
+  
