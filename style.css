@@ -1,0 +1,286 @@
+body {
+
+    background-image: linear-gradient(#6495ED,#008B8B);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+
+.blue_line {
+    background: #6495ED;
+    height: 50px;
+}
+
+.white_line {
+    background: white;
+    height: 100px;
+}
+
+.green_line {
+    background: #008B8B;
+    height: 50px;
+
+}
+
+.search_book {
+    float: right;
+
+}
+
+.search_book input[type=text] {
+    padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: 1px solid cornflowerblue;
+  border-radius: 20px;
+  position: relative;
+
+}
+
+.search_book button {
+
+
+  background-color: #008B8B;
+  border: 2px solid cornflowerblue;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.green_line ul {
+
+    
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+}
+
+.green_line ul li {
+    display: inline;
+    text-align: center
+  }
+
+ .green_line ul li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    padding: 2px 2px; 
+    display:inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    
+  }
+
+  .green_line ul li a:hover {
+    background: #6495ed;
+
+  }
+
+  #search_icon {
+      border-radius: 10px;
+      position: absolute;
+      left: 81.5%;
+      top: 9.5%;
+  }
+
+  .photo {
+      margin-top: 5px;
+      margin-right: 16px;
+      width: 50%;
+      float:right;
+    
+      
+  }
+
+  .container {
+      margin-bottom: 0;
+      margin-top: 800px;
+  }
+
+#lab {
+    float:left; 
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 400px;
+    width: 700px;
+    border: 1px white solid;
+    border-radius: 10px;
+    
+
+
+}
+
+.photo {
+
+    background-color: #FFD700;
+    color: black;
+    border: 1px black solid;
+    width: 770px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding: 9px;
+    
+   
+
+}
+
+.photo h2 {
+
+    text-shadow: 2px 2px #F08080;
+}
+
+.text1 p, h2 {
+
+    width: 770px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    clear: left;
+    color:white;
+}
+
+.text1 button {
+
+  background-color: orange;
+  border: 2px solid cornflowerblue;
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+  text-shadow: 2px 2px black;
+
+}
+
+.text1 h2 {
+
+    margin-top: 10px;
+
+}
+
+.text2 {
+
+    padding: 10px;
+    color: white;
+}
+
+#surgery {
+    float:right;
+    height: 400px;
+    width: 700px;
+    margin-top: -150px;
+    border: 1px white solid;
+    border-radius: 10px;
+    margin-left: 10px;
+
+
+}
+
+.text3 {
+
+    
+    padding:10px;
+    color: white;
+}
+
+#doctor {
+
+    height: 400px;
+    width: 700px;
+    float: right;
+    margin-bottom: 100px;
+    position: relative;
+    right: 150px;
+}
+
+
+.iframe1 {
+    display:flex;
+}
+
+iframe {
+    justify-content: center;
+}
+
+.contact h2{
+     position: relative;
+     left: 495px;
+}
+
+.contact h3{
+    position: relative;
+    left: 510px;
+
+}
+
+
+iframe {
+    border-radius: 15px;
+    border: 1px solid black;
+
+}
+
+.contact button {
+
+    color: green;
+    background-color: white;
+    border-radius: 15px;
+    width: 80px;
+    font-weight: bold;
+}
+
+#arrow {
+
+    height: 10px;
+    width: 20px;
+    position: absolute;
+    left: 10px;
+    top: 62px;
+
+}
+
+form {
+position: relative;
+left: 600px;
+padding: 20px;
+
+}
+
+#first_name, #last_name, #question, #submit, #email {
+
+        width: 220px;
+
+        margin: 10px;
+
+        border-radius: 6px;
+
+    
+}
+
+#submit {
+    background-color: #008a19;
+}
+
+.columns {
+
+    column-count: 3;
+    column-gap: 20px;
+    column-width: 80px;
+}
+
+.far fa-handshake {
+
+    font-size: 20px;
+    color: red;
+}
