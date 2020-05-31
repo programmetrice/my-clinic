@@ -319,4 +319,14 @@ padding: 20px;
     left: 600px;
     bottom: -350px;
 }
+
+/* footer*/
+
+footer {
+    text-align: center;
+    background-color: #00bfff;
+    color: white;
+    padding: 20px;
+
+}
   
