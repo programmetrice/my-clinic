@@ -338,13 +338,13 @@ padding: 20px;
         color: black;
     }
 
-/* footer*/
 
 footer {
     text-align: center;
     background-color: #00bfff;
     color: white;
     padding: 20px;
+    clear: both;
 
 }
   
