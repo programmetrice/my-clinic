@@ -3,7 +3,7 @@ body {
     background-image: linear-gradient(#6495ED,#008B8B);
     background-size: cover;
     background-repeat:no-repeat;
-    min-width: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -22,6 +22,7 @@ body {
     height: 50px;
 
 }
+
 
 .search_book {
     float: right;
@@ -92,14 +93,6 @@ body {
       top: 9.5%;
   }
 
-  .photo {
-      margin-top: 5px;
-      margin-right: 16px;
-      width: 50%;
-      float:right;
-    
-      
-  }
 
   .container {
       margin-bottom: 0;
@@ -125,9 +118,13 @@ body {
     color: black;
     border: 1px black solid;
     width: 770px;
-    margin-right: 5px;
     border-radius: 10px;
     padding: 9px;
+    margin-top: 5px;
+    margin-right: 16px;
+    width: 50%;
+    float:right;
+  
     
    
 
@@ -136,12 +133,15 @@ body {
 .photo h2 {
 
     text-shadow: 2px 2px #F08080;
+    margin: 15px;
+    
 }
 
 .text1 p, h2 {
 
     width: 770px;
     margin-right: 5px;
+    margin-left: -55px;
     border-radius: 10px;
     padding: 10px;
     display: block;
@@ -167,8 +167,10 @@ body {
 .text1 h2 {
 
     margin-top: 10px;
+   
 
 }
+
 
 .text2 {
 
@@ -336,6 +338,7 @@ padding: 20px;
 
     .info h2 {
         color: black;
+        margin: -10px;
     }
 
 
