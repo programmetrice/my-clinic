@@ -3,6 +3,7 @@ body {
     background-image: linear-gradient(#6495ED,#008B8B);
     background-size: cover;
     background-repeat:no-repeat;
+    min-width: 100vh;
 }
 
 
@@ -319,6 +320,23 @@ padding: 20px;
     left: 600px;
     bottom: -350px;
 }
+
+
+    .info-container .image img {
+        height: 450px;
+        width: 600px;
+        float: right;
+        position: absolute;
+        bottom: 60px;
+        right: 25px;
+    }
+    .info-container {
+        padding: 15px;
+    }
+
+    .info h2 {
+        color: black;
+    }
 
 /* footer*/
 
